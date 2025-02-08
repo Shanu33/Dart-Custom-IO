@@ -1,12 +1,11 @@
 import 'dart:io';
-import 'package:custom_io/custom_io.dart';
 
 
 class CustIO{
 
 CustIO._();
 
-static dynamic CustIO.(Type type) {
+static dynamic myInput(Type type) {
   String? input = stdin.readLineSync(); 
   if (input == null) {
     //print("No input provided.");
