@@ -1,6 +1,7 @@
 name: custom_io
 description: A Simple I/O Package for Code reusablity.
 version: 1.0.0
+homepage: https://github.com/Shanu33/Dart-Custom-IO
 # repository: https://github.com/my_org/my_repo
 
 environment:
