@@ -16,9 +16,9 @@ static dynamic myInput(Type type) {
     return int.tryParse(input);
   } else if (type == double) {
     return double.tryParse(input);
-  } else if (input == 'true' || input == '1') {
+  } else if (type== bool && (input == 'true' || input == '1')) {
     return true;
-  } else if (input == 'false' || input == '0') {
+  } else if (type== bool && (input == 'false' || input == '0')) {
     return false; 
   } else if (type == String) {
     return input; 
