@@ -122,48 +122,53 @@ FlexiBorder(
 
 Below are **live** previews of the three FlexiBorder styles—solid, dashed, and mixed—rendered in plain HTML & CSS. Insert this block into any Markdown viewer (e.g. GitHub) to see the actual boxes right in your README:
 
+<!-- BEGIN FlexiBorder Live Preview -->
 <div style="background:#0e1e26; padding:40px; display:flex; gap:32px; flex-wrap:wrap; justify-content:center;">
 
-  <!-- Solid Thick Border -->
-
+  <!-- 1️⃣ Solid Thick Border -->
   <div style="
-      width:300px; height:90px;
-      background:black;
-      color:white;
-      display:flex; align-items:center; justify-content:center;
-      border:10px solid white;
+    width:300px; height:90px;
+    background:#000;
+    color:#fff;
+    display:flex; align-items:center; justify-content:center;
+    border:10px solid white;
+    box-sizing: border-box;
+    font-family: sans-serif;
   ">
     Solid Thick Border
   </div>
 
-  <!-- Dashed Medium Border -->
-
+  <!-- 2️⃣ Evenly Dashed Medium Border -->
   <div style="
-      width:300px; height:90px;
-      background:black;
-      color:white;
-      display:flex; align-items:center; justify-content:center;
-      border:2px dashed cyan;
+    width:300px; height:90px;
+    background:#000;
+    color:#fff;
+    display:flex; align-items:center; justify-content:center;
+    border:2px dashed cyan;
+    box-sizing: border-box;
+    font-family: sans-serif;
   ">
     Dashed Medium Border
   </div>
 
-  <!-- Mixed‐Style Custom Side -->
-
+  <!-- 3️⃣ Mixed-Style Custom Side -->
   <div style="
-      width:300px; height:90px;
-      background:black;
-      color:white;
-      display:flex; align-items:center; justify-content:center;
-      border-top:2px dashed orange;
-      border-right:none;
-      border-bottom:2px dashed orange;
-      border-left:2px dashed orange;
+    width:300px; height:90px;
+    background:#000;
+    color:#fff;
+    display:flex; align-items:center; justify-content:center;
+    border-top:2px dashed orange;
+    border-right:none;
+    border-bottom:2px dashed orange;
+    border-left:2px dashed orange;
+    box-sizing: border-box;
+    font-family: sans-serif;
   ">
-    👋 I’m Shanu
+    👋 I'm Shanu
   </div>
 
 </div>
+<!-- END FlexiBorder Live Preview -->
 
 ---
 
